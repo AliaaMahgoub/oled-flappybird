@@ -3,7 +3,7 @@
 A motion-controlled Flappy Bird game where the distance of your hand from the ultrasonic distance sensor controls the height of the bird. The game can be started and restarted by pressing the button, and the game ends when the bird hits one of the pipes.
 
 ## Circuit Schematic
-
+![Circuit Schematic](schematic.jpg)
 
 ## Design + Technology
 * The ultrasonic sensor measures the distance of an object from the sensor.
@@ -12,6 +12,11 @@ A motion-controlled Flappy Bird game where the distance of your hand from the ul
 * We randomly generate two pipes at a time to create variety in the obstacles.
 * We represent the pipes and the scoring using two different arrays 
 * The game ends when the bird touches a pipe
+
+## Gameplay
+![Press to Start](press_to_start.jpg)
+![Gameplay](gameplay.jpg)
+![Game Over](game_over.jpg)
 
 ## Challenges
 * Using the button to start gameplay
